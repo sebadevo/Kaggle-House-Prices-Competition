@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kaggle-house-prices-competition"
+version = "0.1.0"
+description = "Kaggle competition on the prediction of house price"
+authors = ["Sébastien De Vos <sebastien.devos@euranova.eu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.2"
+torchvision = "^0.17.0"
+numpy = "^1.26.4"
+pandas = "^2.2.0"
+timm = "^0.9.16"
+matplotlib = "^3.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
