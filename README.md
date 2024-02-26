@@ -19,14 +19,14 @@ cd *path_to_project*
 Once poetry and pyenv are installed, the next step is to create an environment with the correct version of python. For that pyenv first need to install the python version needed.
 
 ```
-pyenv install 3.11.7
-pyenv local 3.11.7
+pyenv install 3.10.13
+pyenv local 3.10.13
 ```
 
 Then we will make poetry use the environment just created by running
 
 ```
-poetry env use 3.11.7
+poetry env use 3.10.13
 ```
 
 Finally, everything is set and we can let poetry install everything by running (this can take minutes to install depending on the internet connection):
@@ -39,11 +39,11 @@ poetry install
 
 If eventually you want to create your own environment and install whatver you want, for example you create a completely new project here is how you want to proceed. First install pyenv and poetry (same way as in the [Environement installation](#environement-installation))
 
-Once poetry and pyenv are installed, the next step is to create an environment with the correct version of python. For that pyenv first need to install the python version needed. In this case set the version to the one you wish, in this example it is set to 3.11.7 .
+Once poetry and pyenv are installed, the next step is to create an environment with the correct version of python. For that pyenv first need to install the python version needed. In this case set the version to the one you wish, in this example it is set to 3.10.13 .
 
 ```
-pyenv install 3.11.7
-pyenv local 3.11.7
+pyenv install 3.10.13
+pyenv local 3.10.13
 ```
 
 Then we will create the poetry environment.
@@ -57,7 +57,7 @@ from here follow the instruction set by poetry, set the same python version as t
 Once you finished the poetry init creation, you will make poetry use the python version you installed with pyenv by running the following (remember to use the version you chose in the first step)
 
 ```
-poetry env use 3.11.7
+poetry env use 3.10.13
 ```
 
 Then you can install the environment using
@@ -78,5 +78,5 @@ poetry shell
 poetry add *my_library*
 ```
 
-It can also be used directly in vs-code by selecting the interpreter and using 'your_project_name-XXX-py3.11.7'.
+It can also be used directly in vs-code by selecting the interpreter and using 'your_project_name-XXX-py3.10.13'.
 To select the interpreter enter <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> on Windows and Linux (<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> on macOS) to open the Command Palette and click Python: Select Interpreter > + Enter interpreter path
