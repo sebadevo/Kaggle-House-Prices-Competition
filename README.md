@@ -34,6 +34,8 @@ Finally, everything is set and we can let poetry install everything by running (
 ```
 poetry install
 ```
+It can also be used directly in vs-code by selecting the interpreter and using 'your_project_name-XXX-py3.10.13'.
+To select the interpreter enter <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> on Windows and Linux (<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> on macOS) to open the Command Palette and click Python: Select Interpreter > + Enter interpreter path
 
 ## Environement creation
 
